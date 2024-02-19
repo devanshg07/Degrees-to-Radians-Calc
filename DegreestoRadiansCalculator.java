@@ -32,7 +32,7 @@ public class DegreestoRadiansCalculator {
                 
             case 2:
                 double radians  = 0;
-                System.out.print("Enter the radian value in decimals");
+                System.out.print("Enter the radian value in decimals: ");
                 radians = scanner.nextDouble();
                 double degVal = radianToDeg(radians, pi);
                 System.out.println(radians + " in radians is " + degVal + " degrees");
@@ -56,7 +56,7 @@ public class DegreestoRadiansCalculator {
     public static double radianToDeg(double radians, double pi){
 
         double degVal = radians * (180/pi);
-        degVal = Math.round(degVal * 100.0)/100.0;
+        degVal = Math.round(degVal);
 
         return degVal;
     }
