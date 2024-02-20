@@ -8,6 +8,8 @@ public class DegreestoRadiansCalculator {
         System.out.println("Enter the radian/degree value in degrees. ");
         System.out.println("It will return radian value in decimals");
         System.out.println();
+        System.out.println();
+
 
         System.out.println("Enter the number for each option. ");
 
